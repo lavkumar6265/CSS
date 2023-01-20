@@ -1,0 +1,29 @@
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+
+}
+.box{
+    position: relative;
+}
+/* #box3{
+    position: relative;
+    top: 50px;
+    left: 60px;
+ }  */
+#box3{
+    position:absolute;
+    top: 50px;
+    left: 60px;
+ } 
+.wrapper{
+    height: 1400px;
+    width: 1000px;
+    background-color: aquamarine;
+}
+/* #box1{
+    position: fixed;
+} */
