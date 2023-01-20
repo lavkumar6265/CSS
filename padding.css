@@ -1,0 +1,47 @@
+
+.topleft{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 20px;
+}
+.topRight{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 20x;
+}
+.bottomright{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 20px;
+}
+.bottomleft{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 20px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+.ccontainer{
+    text-align: center;
+    position: relative;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 100px;
+    height: 500px;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    border: 5px solid rgd(241,175,147);
+    box-shadow: 5px 5px 5px lightsalmon,-5px -5px -5px lightsalmon;
+}

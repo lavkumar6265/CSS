@@ -1,0 +1,24 @@
+div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border:1px solid black;
+}
+#box1{
+    position: fixed;
+}
+#box3{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+#box4{
+    position: relative;
+    top: 1000px;
+    left: 50px;
+}
+.wrreper{
+    background-color: aquamarine;
+    height: 2000px;
+}
