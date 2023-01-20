@@ -1,0 +1,12 @@
+.contanet{
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+
+}
+.box{
+    border:  1px solid black;
+    width: 80px;
+}

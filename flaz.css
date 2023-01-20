@@ -1,0 +1,36 @@
+.container{
+    height: 400px;
+    border: 2px solid green;
+    display: flex;
+}
+.box{
+    border: 2px solid brown;
+    background-color: aqua;
+}
+#center{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: aqua;
+}
+#top_left{
+    display: flex;
+    justify-items: flex-start;
+    background-color: aqua;
+}
+#top_right{
+    display: flex;
+    justify-items: flex-end;
+    background-color: aqua;
+}
+#buttom_left{
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-end;
+    background-color: aqua;
+}
+#buttom_right{
+    display: flex;
+    align-items: flex-end;
+    background-color: aqua;
+}
